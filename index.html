@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+    <script src="index.js"></script>
+</head>
+<body>
+    <div class="main">
+        <div class="calc">
+            <div class="output">
+                <input type="text" id="screen">
+            </div>
+           
+            <div class="buttons">
+                <div class="row">
+                    <button onclick="cleardisplay('clear')" class="cleardisplay">clear</button><br>
+
+                    <button onclick="buttonclick(7)" class="one">7</button>
+                    <button onclick="buttonclick(8)" class="one">8</button>
+                    <button onclick="buttonclick(9)" class="one">9</button>
+                    <button onclick="buttonclick('/')" class="one">/</button>
+                </div>
+                <div class="row">
+                    <button onclick="buttonclick(4)" class="one">4</button>
+                    <button onclick="buttonclick(5)" class="one">5</button>
+                    <button onclick="buttonclick(6)" class="one">6</button>
+                    <button onclick="buttonclick('*')"class="one">x</button>
+                </div>
+                <div class="row">
+                    <button onclick="buttonclick(1)" class="one">1</button>
+                    <button onclick="buttonclick(2)" class="one">2</button>
+                    <button onclick="buttonclick(3)" class="one">3</button>
+                    <button onclick="buttonclick('-')" class="one">-</button>
+                </div>
+                <div class="row">
+                    <button onclick="buttonclick('.')" class="one"><b>.</b></button>
+                    <button onclick="buttonclick(0)" class="one">0</button>
+                    <button onclick="buttonclick('+')" class="one">+</button>
+                    <button onclick="equalclick('=')" class="one">=</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
